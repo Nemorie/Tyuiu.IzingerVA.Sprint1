@@ -3,7 +3,7 @@ using Tyuiu.IzingerVA.Sprint1.Task0.V19.Lib;
 
 namespace Tyuiu.IzingerVA.Sprint1.Task0.V19.Lib
 {
-    public class DataService : ISprint1_Task0_V19
+    public class DataService : ISprint1Task0V19
     {
         public double Calculate()
         {
