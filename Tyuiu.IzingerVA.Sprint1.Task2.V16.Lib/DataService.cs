@@ -7,7 +7,7 @@ namespace Tyuiu.IzingerVA.Sprint1.Task2.V16.Lib
     {
         public int Calculate(double value)
         {
-            return Convert.ToInt32(2 * Math.PI * value);
+            return Convert.ToInt32(Math.Round(2 * Math.PI * value, 3));
         }
     }
 }

@@ -15,7 +15,7 @@ namespace Tyuiu.IzingerVA.Sprint1.Task2.V16
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
             Console.WriteLine("* Задание #2                                                              *");
             Console.WriteLine("* Вариант #16                                                             *");
-            Console.WriteLine("* Выполнил: Изингер Владислав Александрович | РППб-26-1                       *");
+            Console.WriteLine("* Выполнил: Изингер Владислав Александрович | РППб-26-1                   *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Известен радиус круга. Вычислить примерный периметр круга.              *");
