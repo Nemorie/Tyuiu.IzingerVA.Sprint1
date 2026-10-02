@@ -14,7 +14,7 @@ namespace Tyuiu.IzingerVA.Sprint1.Task1.V8.Test
             double x = 2.0;
             double a = 2.0;
             var res = ds.Calculate(x, a);
-            Assert.AreEqual(Math.PI, res);
+            Assert.AreEqual(3.14, res);
         }
     }
 }

@@ -7,7 +7,7 @@ namespace Tyuiu.IzingerVA.Sprint1.Task1.V8.Lib
     {
         public double Calculate(double x, double a)
         {
-            return (x * Math.PI) / a;
+            return Math.Round((x * Math.PI) / a, 2);
         }
     }
 }
