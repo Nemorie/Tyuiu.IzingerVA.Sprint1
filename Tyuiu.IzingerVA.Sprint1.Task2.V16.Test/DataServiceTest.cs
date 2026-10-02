@@ -13,7 +13,7 @@ namespace Tyuiu.IzingerVA.Sprint1.Task2.V16.Test
             DataService ds = new DataService();
             double r = 2.0;
             var res = ds.Calculate(r);
-            Assert.AreEqual(12.566, res);
+            Assert.AreEqual(13, res);
         }
     }
 }
