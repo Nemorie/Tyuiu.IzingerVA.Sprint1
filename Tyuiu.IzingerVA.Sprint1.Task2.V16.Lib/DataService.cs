@@ -9,5 +9,10 @@ namespace Tyuiu.IzingerVA.Sprint1.Task2.V16.Lib
         {
             return Convert.ToInt32(Math.Round(2 * Math.PI * value, 3));
         }
+
+        public double Calculate(int value)
+        {
+            return Math.Round(2 * Math.PI * value, 3);
+        }
     }
 }

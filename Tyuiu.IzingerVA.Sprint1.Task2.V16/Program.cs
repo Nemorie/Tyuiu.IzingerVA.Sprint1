@@ -25,10 +25,10 @@ namespace Tyuiu.IzingerVA.Sprint1.Task2.V16
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double r;
+            int r;
 
             Console.WriteLine("Введите радиус круга:");
-            r = Convert.ToDouble(Console.ReadLine());
+            r = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");

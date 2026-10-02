@@ -11,9 +11,9 @@ namespace Tyuiu.IzingerVA.Sprint1.Task2.V16.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double r = 2.0;
+            int r = 2;
             var res = ds.Calculate(r);
-            Assert.AreEqual(13, res);
+            Assert.AreEqual(12.566, res);
         }
     }
 }
