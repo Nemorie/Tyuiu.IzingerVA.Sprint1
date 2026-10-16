@@ -13,7 +13,7 @@ namespace Tyuiu.IzingerVA.Sprint1.Task3.V1.Test
             DataService ds = new DataService();
             double r = 2.0;
             double h = 3.0;
-            var res = ds.Calculate(r, h);
+            var res = ds.CylinderVolume(r, h);
             Assert.AreEqual(37.699, res);
         }
     }

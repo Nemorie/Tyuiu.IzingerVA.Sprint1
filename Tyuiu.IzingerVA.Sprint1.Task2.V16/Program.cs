@@ -34,7 +34,7 @@ namespace Tyuiu.IzingerVA.Sprint1.Task2.V16
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate(r));
+            Console.WriteLine(ds.CalculatePerimetrCircle(r));
 
             Console.ReadLine();
         }

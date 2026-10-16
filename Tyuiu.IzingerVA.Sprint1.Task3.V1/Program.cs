@@ -36,7 +36,7 @@ namespace Tyuiu.IzingerVA.Sprint1.Task3.V1
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Объем цилиндра равен: " + ds.Calculate(r, h));
+            Console.WriteLine("Объем цилиндра равен: " + ds.CylinderVolume(r, h));
 
             Console.ReadLine();
         }

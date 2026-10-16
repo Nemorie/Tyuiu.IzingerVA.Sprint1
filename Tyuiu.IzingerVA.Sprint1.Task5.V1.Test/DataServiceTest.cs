@@ -11,9 +11,11 @@ namespace Tyuiu.IzingerVA.Sprint1.Task5.V1.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 3.0;
-            double y = 4.0;
-            var res = ds.Calculate(x, y);
+            double x1 = 0;
+            double y1 = 0;
+            double x2 = 3;
+            double y2 = 4;
+            var res = ds.DistanceBetweenDots(x1, y1, x2, y2);
             Assert.AreEqual(5, res);
         }
     }

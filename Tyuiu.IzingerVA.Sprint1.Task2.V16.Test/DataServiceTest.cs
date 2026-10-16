@@ -12,8 +12,8 @@ namespace Tyuiu.IzingerVA.Sprint1.Task2.V16.Test
         {
             DataService ds = new DataService();
             int r = 2;
-            var res = ds.Calculate(r);
-            Assert.AreEqual(13, res);
+            var res = ds.CalculatePerimetrCircle(r);
+            Assert.AreEqual(12.566, res);
         }
     }
 }

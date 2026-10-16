@@ -5,9 +5,9 @@ namespace Tyuiu.IzingerVA.Sprint1.Task2.V16.Lib
 {
     public class DataService : ISprint1Task2V16
     { 
-        public int Calculate(double value)
+        public double CalculatePerimetrCircle(int value)
         {
-            return Convert.ToInt32(Math.Round(2 * Math.PI * value, 3));
+            return Math.Round(2 * Math.PI * value, 3);
         }
     }
 }
