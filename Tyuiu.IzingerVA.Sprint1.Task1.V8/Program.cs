@@ -15,7 +15,7 @@ namespace Tyuiu.IzingerVA.Sprint1.Task1.V8
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
             Console.WriteLine("* Задание #1                                                              *");
             Console.WriteLine("* Вариант #8                                                              *");
-            Console.WriteLine("* Выполнил: Изингер Владислав Александрович | РППб-26-1                       *");
+            Console.WriteLine("* Выполнил: Изингер Владислав Александрович | РППб-26-1                   *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
