@@ -5,7 +5,7 @@ namespace Tyuiu.IzingerVA.Sprint1.Task3.V1.Lib
 {
     public class DataService : ISprint1Task3V1
     {
-        public void Calculate()
+        void ISprint1Task3V1.Calculate()
         {
         }
 

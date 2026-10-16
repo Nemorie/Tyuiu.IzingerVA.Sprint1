@@ -1,5 +1,5 @@
-﻿using System;
-using Tyuiu.IzingerVA.Sprint1.Task0.V19.Lib;
+using System;
+using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.IzingerVA.Sprint1.Task0.V19.Lib
 {
@@ -7,8 +7,7 @@ namespace Tyuiu.IzingerVA.Sprint1.Task0.V19.Lib
     {
         public double Calculate()
         {
-            double result = 4 / 2 * 5 / (3 + 2) * 5;
-            return result;
+            return 4 / 2 * 5 / (3 + 2) * 5;
         }
     }
 }

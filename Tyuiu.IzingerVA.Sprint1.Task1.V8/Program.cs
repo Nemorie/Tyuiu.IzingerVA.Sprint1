@@ -37,7 +37,7 @@ namespace Tyuiu.IzingerVA.Sprint1.Task1.V8
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate(x, a));
+            Console.WriteLine(ds.Calculate(a, x));
 
             Console.ReadLine();
         }

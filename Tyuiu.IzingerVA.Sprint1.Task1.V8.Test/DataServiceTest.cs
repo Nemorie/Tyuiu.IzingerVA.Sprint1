@@ -13,7 +13,7 @@ namespace Tyuiu.IzingerVA.Sprint1.Task1.V8.Test
             DataService ds = new DataService();
             double x = 2.0;
             double a = 2.0;
-            var res = ds.Calculate(x, a);
+            var res = ds.Calculate(a, x);
             Assert.AreEqual(3.14, res);
         }
     }
