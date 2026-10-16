@@ -5,7 +5,7 @@ namespace Tyuiu.IzingerVA.Sprint1.Task0.V19.Test
 {
     [TestClass]
     public class DataServiceTest
-    {
+    { 
         [TestMethod]
         public void Calculate_ReturnsCorrectResult()
         {

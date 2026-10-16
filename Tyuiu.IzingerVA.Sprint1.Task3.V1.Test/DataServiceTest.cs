@@ -6,7 +6,7 @@ namespace Tyuiu.IzingerVA.Sprint1.Task3.V1.Test
 {
     [TestClass]
     public class DataServiceTest
-    {
+    { 
         [TestMethod]
         public void ValidExpression()
         {
