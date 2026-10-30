@@ -12,8 +12,15 @@ namespace Tyuiu.IzingerVA.Sprint1.Task6.V11.Lib
                 return false;
             }
 
-            char firstChar = value[0];
-            return value.IndexOf(firstChar, 1) != -1;
+            for (int i = 1; i < value.Length; i++)
+            {
+                if (value[i] == value[0])
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
     }
 }
