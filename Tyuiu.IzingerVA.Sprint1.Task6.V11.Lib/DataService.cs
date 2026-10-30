@@ -3,7 +3,7 @@ using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.IzingerVA.Sprint1.Task6.V11.Lib
 {
-    public class DataService : ISprint1Task6V11
+    public class DataService : ISprint1Task6V11 
     {
         public bool CheckeFirstLetterRepetition(string value)
         {
